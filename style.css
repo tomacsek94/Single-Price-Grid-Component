@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+.hero,
+.subscription,
+.description {
+  padding: 30px 50px;
+}
+
+.hero h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: hsl(218, 22%, 67%);
+  margin-bottom: 20px;
+  line-height: 35px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 200px;
+  justify-content: center;
+  align-content: center;
+}
+
+.hero {
+  grid-column: 1 / -1;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.subscription {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background-color: hsl(179, 62%, 43%);
+  color: #fff;
+  border-radius: 0 0 0 10px;
+}
+
+.subscription-details {
+  display: flex;
+  align-items: center;
+}
+
+.subscription h2 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.subscription p {
+  font-size: 18px;
+  color: #ffffffde;
+  margin-bottom: 30px;
+}
+
+.price {
+  font-size: 50px;
+  font-weight: 700;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.month {
+  font-size: 20px;
+  color: hsla(203, 44%, 93%, 0.493);
+}
+
+.description {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: hsla(179, 62%, 43%, 0.637);
+  color: #fff;
+  border-radius: 0 0 10px 0;
+}
+
+.description h2 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.description p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 80px;
+  color: #ffffff88;
+}
+
+.btn {
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: hsl(71, 73%, 54%);
+  padding: 20px 110px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
